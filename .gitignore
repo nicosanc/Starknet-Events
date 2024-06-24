@@ -1,0 +1,48 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# next.js build output
+/.next
+/out
+
+# production environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# next.js build indicators
+.next/trace
+
+# local environment settings
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Output of 'npm pack'
+*.tgz
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Mac system files
+.DS_Store
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# Miscellaneous
+.vscode
+.idea
